@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import './App.css';
 import Home from './Home';
 import Invetement from './Invetement';
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Invetement />
+      <About />
     </div>
   );
 }
