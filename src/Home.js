@@ -1,5 +1,6 @@
 import React from "react";
-import home_img from "./home_img.png" ;
+import home_img from "./home_img.png";
+import home_percent from "./home_procent.png";
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
             </div>
             <p>GET 15% REFERRAL REWARDS</p>
             <p>8% + 5% + 2%</p>
-            <div><button>CONTRACT</button><i className="fal fa-angle-right"></i></div>
+            <div><a><button>CONTRACT</button></a><i className="fal fa-angle-right"></i></div>
           </div>
           <div className="home_section_right"><img src={home_img} alt="homeimg" width="550" /></div>
         </div>
