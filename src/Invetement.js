@@ -66,7 +66,9 @@ const Invetement = () => {
               <button>WITHDRAW</button>
               <i className="fal fa-angle-right"></i>
             </div>
-            <p className="para_between_btn">On Withdraw 20% will Auto-Reinvest</p>
+            <p className="para_between_btn">
+              On Withdraw 20% will Auto-Reinvest
+            </p>
             <div className="invest_detail_left_btn">
               <button>REINVEST</button>
               <i className="fal fa-angle-right"></i>
