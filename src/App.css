@@ -10,13 +10,13 @@ body {
 }
 
 .main_page {
-    background: #c0c0c0;
+  background: #c0c0c0;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-} 
+}
 
 /* navbar css */
 .navbar_container {
@@ -96,8 +96,135 @@ header {
 .home_container {
   margin-top: 90px;
   background: #c0c0c0;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 4.3rem;
+}
+
+.home_section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.home_main_span {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 100px 0 0px;
+  color: whitesmoke;
+}
+
+.home_main_span span {
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+.home_section_left_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.home_section_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_section_left h3 {
+  color: #e4324c;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.home_percent {
+  display: flex;
+  margin-top: 30px;
+}
+
+.percent_left {
+  background-image: url(./home_procent.png);
+  background-repeat: no-repeat;
+  width: 344px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.percent_left h2 {
+  color: rgb(237, 27, 36);
+  margin: 20px 0 0 0;
+  font-size: 65px;
+}
+
+.percent_left p {
+  font-size: 25px;
+}
+
+.percent_right {
+  margin: -40px 0 0 -40px;
+}
+
+.percent_right h1 {
+  color: #fcd740;
+  font-weight: 800;
+  font-size: 7rem;
+  line-height: 135.5%;
+  text-shadow: 0 0.7rem 1.4rem rgb(84 88 152 / 36%);
+}
+
+.percent_right h2 {
+  color: #fcd740;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 135.5%;
+  text-shadow: 0 0.7rem 1.4rem rgb(84 88 152 / 36%);
+  display: flex;
+  margin: 0 0 0 20px;
+}
+
+.home_p {
+  margin-top: -25px;
+}
+
+.home_p p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0 0 0;
+}
+
+.cotract_btn {
+  background-color: #e4324c;
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.cotract_btn a button {
+    background: #e4324c;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cotract_btn a button:hover {
+    cursor: pointer;
+}
+
+.cotract_btn i {
+    color: #ffffff;
+    margin-right: 20px;
 }
 
 /* invetment css */
