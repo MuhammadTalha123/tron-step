@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <div className="home_section_left_right">
           <div className="home_section_left">
-            <h3>100 % verified smart contract</h3>
+            <h3><b>100 % verified smart contract</b></h3>
             <div className="home_percent">
               <div className="percent_left">
                 <h2>210 %</h2>
