@@ -23,6 +23,7 @@ body {
   height: 100px;
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 
 header {
@@ -45,7 +46,9 @@ header {
   padding: 5px 0 0 0;
   cursor: pointer;
 }
-
+.referals {
+  display: inline;
+}
 .ul_links a:hover {
   box-shadow: 5px 10px 18px #f5f5f0;
 }
@@ -53,8 +56,11 @@ header {
 .ul_links a i {
   margin-right: 10px;
   color: #ff4da6;
+  opacity: 0;
 }
-
+.ul_links a:hover i {
+  opacity: 1;
+}
 .ul_links a button {
   color: black;
   outline: none;
@@ -62,6 +68,7 @@ header {
   padding: 10px;
   font-size: 17px;
   cursor: pointer;
+  opacity: 1;
   background-color: white;
 }
 
@@ -562,7 +569,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .referal_percent_div span {
@@ -579,6 +586,85 @@ header {
 
 .about_container {
   background: #c0c0c0;
+}
+
+.about_section {
+  margin-top: 150px;
+}
+
+.action_parts {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.action_div {
+  background: #9cbff5;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.action_div p {
+  padding: 0px 35px;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
+.action_div_head {
+  display: flex;
+}
+
+.action_div_head h4 {
+  margin: 25px 0 0 0;
+}
+
+.action_color_1 {
+  background: linear-gradient(135deg, #e36fa6 0%, #be212a 100%);
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.action_color_2 {
+  background: linear-gradient(180deg, #87afff 0%, #6d23bd61 100%);
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.action_color_3 {
+  background: linear-gradient(90deg, #ffe177 -67.99%, #feb137 83%);
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.action_color_4 {
+  background: linear-gradient(225deg, #4df5b9 0%, #82397f 100%);
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.action_div h2 {
+  font-size: 60px;
+  color: lightgray;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 /* footer css */
