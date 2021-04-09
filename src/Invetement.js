@@ -11,15 +11,15 @@ const Invetement = () => {
           </span>
         </div>
         <div className="invest_state">
-          <span>
-            total invested: <b>0 TRX</b>
-          </span>
-          <span>
-            total paid: <b>0 TRX</b>
-          </span>
-          <span>
-            Wallet Bal: <b>0 TRX</b>
-          </span>
+          <div className="invest_state_2">
+            <span>total invested:</span> <b>0 TRX</b>
+          </div>
+          <div className="invest_state_2">
+            <span>total paid:</span> <b>0 TRX</b>
+          </div>
+          <div className="invest_state_1">
+            <span>Wallet Bal:</span> <b>0 TRX</b>
+          </div>
         </div>
         <div className="invest_detail">
           <div className="invest_detail_left">

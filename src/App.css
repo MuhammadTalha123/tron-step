@@ -185,12 +185,13 @@ header {
 
 .percent_right h2 {
   color: #fcd740;
-  font-weight: 800;
+  font-weight: 100;
   font-size: 2rem;
   line-height: 135.5%;
   text-shadow: 0 0.7rem 1.4rem rgb(84 88 152 / 36%);
   display: flex;
   margin: 0 0 0 20px;
+  letter-spacing: 5px;
 }
 
 .home_p {
@@ -263,8 +264,8 @@ header {
   justify-content: space-evenly;
   align-items: center;
   background: white;
-  margin: 50px 300px 0 300px;
-  height: 75px;
+  margin: 50px 200px 0 200px;
+  height: 100px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -294,6 +295,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .invest_detail_left_head {
@@ -321,6 +323,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .invest_amount {
@@ -442,6 +445,8 @@ header {
 .para_between_btn {
   color: #ffffff;
   margin-top: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .referal_heading {
@@ -466,6 +471,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .referal_detail_left_head {
@@ -481,7 +487,7 @@ header {
 }
 
 .referal_detail_left_head h3 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 100;
 }
 
@@ -493,6 +499,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .referal_input_div {
@@ -702,4 +709,355 @@ header {
   color: rgb(184, 109, 165);
   font-size: 20px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+  .home_section_right img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home_section_right img {
+    width: 300px;
+  }
+
+  .invest_state {
+    margin: 50px 100px 0 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .home_section_right img {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ul_links a {
+    margin-right: 20px;
+  }
+
+  .home_section_right img {
+    display: none;
+  }
+
+  .home_main_span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 50px;
+  }
+
+  .home_main_span span {
+    margin-top: 5px;
+  }
+
+  .home_percent {
+    display: flex;
+    align-items: center;
+  }
+
+  .percent_left {
+    background-image: none;
+    width: 200px;
+  }
+
+  .percent_left h2 {
+    font-size: 45px;
+  }
+
+  .percent_left p {
+    font-size: 15px;
+  }
+
+  .percent_right {
+    margin: -115px -100px 0 50px;
+  }
+
+  .percent_right h1 {
+    font-weight: 200;
+    font-size: 4rem;
+  }
+
+  .percent_right h2 {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 85.5%;
+  }
+
+  .home_p {
+    margin: -70px -100px 0 70px;
+  }
+
+  .cotract_btn {
+    width: 100%;
+    display: flex;
+    margin: 20px 0 0 130px;
+  }
+
+  .invest_heading span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .invest_state {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background: #c0c0c0;
+    margin: 0px 50px 0 50px;
+  }
+
+  .invest_heading {
+    margin-top: 30px;
+  }
+
+  .invest_state_1 {
+    margin-top: 100px;
+  }
+
+  .invest_state_1 span {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+
+  .invest_state_1 b {
+    color: #ff4d94;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+
+  .invest_state_2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .invest_state_2 span {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+
+  .invest_state_2 b {
+    color: #4db8ff;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+
+  .referal_heading {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ul_links a {
+    margin-right: 20px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .ul_links a {
+    margin-right: 0px;
+    width: 150px;
+  }
+
+  .home_p {
+    margin: -70px -100px 0 0px;
+  }
+
+  .action_div {
+    background: #9cbff5;
+    width: 200px;
+    height: 150px;
+  }
+
+  .action_div_head {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .action_div_head h4 {
+    margin: 15px 0 0 10px;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+
+  .action_div p {
+    display: none;
+  }
+
+  .action_div h2 {
+    font-size: 50px;
+    color: lightgray;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .telegram_link {
+    display: none;
+  }
+
+  .home_percent {
+    margin: 0 0 0 -100px;
+  }
+
+  .home_p {
+    margin: -100px -50px 0 0px;
+  }
+
+  .cotract_btn {
+    margin: 20px 0 0 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .invest_detail_left {
+    width: 250px;
+  }
+
+  .invest_detail_left_head {
+    width: 200px;
+  }
+
+  .input_div {
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .input_div i {
+    font-size: 14px;
+  }
+
+  .input_div input {
+    font-size: 11px;
+  }
+
+  .input_div span {
+    font-size: 14px;
+  }
+  .invest_detail_left_btn {
+    width: 200px;
+  }
+
+  .invest_detail_right {
+    width: 250px;
+  }
+
+  .para_between_btn {
+    font-size: 11px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+
+  .referal_detail_left {
+    width: 250px;
+  }
+
+  .referal_detail_left_head {
+    width: 200px;
+  }
+
+  .referal_input_div {
+    width: 200px;
+  }
+
+  .referal_detail_right {
+    width: 250px;
+  }
+
+  .copy_link_btn {
+    width: 200px;
+  }
+
+  .referal_percent_div {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ul_links a {
+    width: 115px;
+  }
+  .home_section_left h3 b {
+    font-size: 20px;
+  }
+
+  .percent_left {
+    background-image: none;
+    width: 150px;
+  }
+
+  .percent_left h2 {
+    font-size: 30px;
+  }
+
+  .percent_left p {
+    font-size: 11px;
+  }
+
+  .percent_right {
+    margin: -140px -100px 0 10px;
+  }
+
+  .percent_right h1 {
+    font-weight: 200;
+    font-size: 2rem;
+  }
+
+  .percent_right h2 {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 85.5%;
+  }
+
+  .home_p {
+    margin: -70px -100px 0 -50px;
+  }
+
+  .home_p p {
+    font-size: 17px;
+  }
+
+  .cotract_btn {
+    margin: 20px 0 0 20px;
+  }
+
+  .footer_section h5 {
+    font-size: 10px;
+  }
+
+  .footer_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer_icon i {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .header_logo img {
+    width: 60px;
+    margin: 10px 0 0 0;
+  }
 }

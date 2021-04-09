@@ -12,7 +12,7 @@ const About = () => {
             color: "white",
             textAlign: "center",
             fontSize: "16px",
-            marginTop: "25px",
+            margin: "25px 30px 0 30px",
           }}
         >
           Tronstep is a decentralized investment platform powered by TRON smart
@@ -24,7 +24,7 @@ const About = () => {
             color: "white",
             textAlign: "center",
             fontSize: "16px",
-            marginTop: "5px",
+            margin: "25px 30px 0 30px",
           }}
         >
           Accrual and payment of dividends occurs automatically. Tronstep is a
